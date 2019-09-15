@@ -1,0 +1,17 @@
+<h1>Resultados Héroes <small>Marvel y DC</small></h1>
+<hr>
+
+<div class="row animated fadeIn fast" *ngIf="heroes.length == 0">
+    <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+            No existe el héroe buscado.
+        </div>
+
+    </div>
+
+</div>
+
+<div class="card-columns">
+    <!-- *ngFor="let heroe of heroes; let i=index;"-->
+    <app-heroe-tarjeta (heroeSeleccionado)="verHeroe( heore.idx)" [heroe]="heore" [index]="i" *ngFor="let heore of heroes; let i=index;"></app-heroe-tarjeta>
+</div>

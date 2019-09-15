@@ -1,0 +1,23 @@
+<!-- Usar | para pipe que cambia el formato de texto solo en el front-end -->
+<!--- | pipe = type :argumentos-->
+<h1 class="animated fadeIn">{{heroe.nombre | uppercase }} <small>({{heroe.aparicion | date:'y'}})</small></h1>
+<hr>
+
+
+<div class="row animated fadeIn fast">
+    <div class="col-md-4">
+        <img [src]="heroe.img" class="img-fluid" [alt]="heroe.nombre">
+        <br><br>
+        <a [routerLink]="['/heroes']" class="btn btn-outline-danger btn-block"> Regresar </a>
+    </div>
+    <div class="col-md-8">
+        <h3>{{heroe.nombre}}</h3>
+        <hr>
+        <p>{{heroe.bio}}</p>
+
+        <div>
+            <img class="img-logo" *ngIf="heroe.casa=='Marvel'" src="assets/img/lmarvel.png">
+            <img class="img-logo" *ngIf="heroe.casa=='DC'" src="assets/img/ldc.png">
+        </div>
+    </div>
+</div>

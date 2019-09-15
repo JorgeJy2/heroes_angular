@@ -1,0 +1,13 @@
+<div class="card animated fadeIn fast">
+    <!--{{heroe.img}} se llama interpolación-->
+    <img [src]="heroe.img" class="card-img-top" [alt]="heroe.nombre">
+    <div class="card-body">
+        <h5 class="card-title">{{ heroe.nombre }}</h5>
+        <p class="card-text">{{ heroe.bio }}</p>
+        <p class="card-text"><small class="text-muted">{{ heroe.aparicion }}</small></p>
+        <!-- btn-block hacer el boton grande -->
+        <button (click)="verHeroe()" type="button" class="btn btn-outline-primary btn-block">Ver más..</button>
+        <!-- se debe regresar en el componente dependiendo la página donde se enquentre-->
+        <!-- <a [routerLink]="['/heroe',i]" class="btn btn-outline-primary btn-block">Ver más link...</a> -->
+    </div>
+</div>

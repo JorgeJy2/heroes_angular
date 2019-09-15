@@ -1,0 +1,13 @@
+<h1>Héroes <small>Marvel y DC</small></h1>
+<hr>
+
+<div class="card-columns">
+    <!-- *ngFor="let heroe of heroes; let i=index;" -->
+    <!-- crea una variable del arreglo heroues-->
+    <!-- crear uhna variable index para tener el indice-->
+
+    <!--Llamamos al componente hijo-->
+    <!-- Mandar el valor de input con el mismo nombre declarada   entre[]-->
+    <app-heroe-tarjeta (heroeSeleccionado)="verHeroe( $event)" [heroe]="heroe" [index]="i" *ngFor="let heroe of heroes; let i=index"></app-heroe-tarjeta>
+
+</div>
