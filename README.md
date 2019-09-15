@@ -15,7 +15,7 @@ Este es un proyecto realizado en Angular con fines educativos.
 
 ### Previsualización 
 
-<img alt="HomePage" width="260px" align="left" src="https://res.cloudinary.com/djdcezwon/image/upload/v1568520380/public_apps/heroes_angular/heroes_1_dxrdbx.png">
-<img alt="Heroes page" width=260px" align="left" src="https://res.cloudinary.com/djdcezwon/image/upload/v1568520380/public_apps/heroes_angular/heroes_2_trlc0x.png">
-<img alt="Info page" width="260px" align="left" src="https://res.cloudinary.com/djdcezwon/image/upload/v1568520380/public_apps/heroes_angular/heroes_3_z3eaxt.png">
+<img alt="HomePage" width="45%" align="left" src="https://res.cloudinary.com/djdcezwon/image/upload/v1568520380/public_apps/heroes_angular/heroes_1_dxrdbx.png">
+<img alt="Heroes page" width=45%" align="left" src="https://res.cloudinary.com/djdcezwon/image/upload/v1568520380/public_apps/heroes_angular/heroes_2_trlc0x.png">
+<img alt="Info page" width="45%" align="left" src="https://res.cloudinary.com/djdcezwon/image/upload/v1568520380/public_apps/heroes_angular/heroes_3_z3eaxt.png">
                                                                              
